@@ -16,7 +16,7 @@ module.exports = {
         imwe: "1px",
       },
       width: {
-        ubugari: "960px",
+        ubugari: "375px",
       },
       height: {
         uburebure: "885px",

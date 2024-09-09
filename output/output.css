@@ -574,28 +574,24 @@ video {
   z-index: 10;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mt-60 {
-  margin-top: 15rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mt-24 {
+  margin-top: 6rem;
 }
 
 .flex {
@@ -615,16 +611,16 @@ video {
   height: 100vh;
 }
 
-.h-uburebure {
-  height: 885px;
+.w-80 {
+  width: 20rem;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
+.w-96 {
+  width: 24rem;
 }
 
-.w-4\/5 {
-  width: 80%;
+.w-px {
+  width: 1px;
 }
 
 .w-screen {
@@ -632,36 +628,7 @@ video {
 }
 
 .w-ubugari {
-  width: 960px;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.w-px {
-  width: 1px;
-}
-
-.min-w-96 {
-  min-width: 24rem;
-}
-
-.min-w-80 {
-  min-width: 20rem;
-}
-
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.flex-row {
-  flex-direction: row;
+  width: 375px;
 }
 
 .flex-col {
@@ -721,20 +688,24 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-20 {
-  padding: 5rem;
-}
-
 .p-1 {
   padding: 0.25rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-9 {
+  padding: 2.25rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pl-4 {
@@ -757,6 +728,10 @@ video {
   padding-top: 0.5rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -768,6 +743,11 @@ video {
 
 .text-esheshatu {
   font-size: 0.6rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-sm {
@@ -825,38 +805,4 @@ video {
 
 .outline-0 {
   outline-width: 0px;
-}
-
-@media (min-width: 640px) {
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
-  .md\:flex-col {
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:w-1\/2 {
-    width: 50%;
-  }
-
-  .xl\:w-2\/3 {
-    width: 66.666667%;
-  }
-
-  .xl\:flex-col {
-    flex-direction: column;
-  }
 }
