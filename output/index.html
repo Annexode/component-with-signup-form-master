@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Intro component with sign up form</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-primary">
+    <div
+      class="flex justify-center items-center w-screen h-screen z-0 relative mb-10"
+    >
+      <img
+        class="size-full"
+        src="./images/bg-intro-desktop.png"
+        alt="An in the back of the background"
+      />
+      <div
+        class="flex flex-col h-full items-center justify-center p-1 gap-9 z-10 absolute top-0 w-px"
+      >
+        <div class="min-w-80 text-center text-white">
+          <h1 class="text-2xl font-bold mt-10 mb-5 leading-6">
+            Learn to code by watching others
+          </h1>
+          <p class="text-sm">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="">
+          <div
+            class="flex justify-center pt-2 pb-2 pr-6 pl-6 bg-ubururu rounded text-white text-sm mb-5 shadow-md"
+          >
+            <div><a href="#">Try it free 7 days</a></div>
+            <div><a href="#">then $20/mo. thereafter</a></div>
+          </div>
+          <form class="bg-white flex flex-col gap-3 p-10 rounded">
+            <input
+              class="pt-2 pb-2 pl-4 pr-10 rounded bg-white border-imwe border-zinc-600 text-zinc-900 outline-0 placeholder-neutral-900"
+              type="text"
+              placeholder="First Name"
+            />
+            <input
+              class="pt-2 pb-2 pl-4 pr-10 rounded bg-white border-imwe border-zinc-600 text-zinc-900 outline-0 placeholder-neutral-900"
+              type="text"
+              placeholder="Last Name"
+            />
+            <input
+              class="pt-2 pb-2 pl-4 pr-10 rounded bg-white border-imwe border-zinc-600 text-zinc-900 outline-0 placeholder-neutral-900"
+              type="email"
+              placeholder="Email Address"
+            />
+            <input
+              class="pt-2 pb-2 pl-4 pr-10 rounded bg-white border-imwe border-zinc-600 text-zinc-900 outline-0 placeholder-neutral-900"
+              type="password"
+              placeholder="Password"
+            />
+            <button
+              class="pt-2 pb-2 pr-6 pl-6 bg-secondary rounded text-white uppercase text-sm"
+            >
+              <a href="#">Claim your free trial</a>
+            </button>
+            <div class="flex flex-col justify-center gap-1 text-esheshatu">
+              <h3 class="text-gray-400 font-bold text-center">
+                By clicking the button, you are agreeing to our
+              </h3>
+              <a class="text-red-600 font-bold text-center" href="#">Terms and Services</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
